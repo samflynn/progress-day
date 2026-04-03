@@ -5,7 +5,6 @@ A minimal macOS menu bar app that visualizes how much of your day is left.
 ## Features
 
 - **Menu bar progress ring** — a small circular indicator that fills as your day progresses
-- **Hover tooltip** — see time remaining without clicking
 - **Display modes** — icon only, icon + percentage, or icon + time remaining
 - **Configurable schedule** — set your own start and end times (supports past-midnight)
 - **Launch at login** — start automatically with your Mac
