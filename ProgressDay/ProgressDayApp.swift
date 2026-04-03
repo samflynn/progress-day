@@ -7,8 +7,7 @@ struct ProgressDayApp: App {
 
     var body: some Scene {
         MenuBarExtra {
-            ProgressPopover(manager: scheduleManager)
-                .frame(width: 280)
+            SettingsView(manager: scheduleManager)
         } label: {
             MenuBarLabel(manager: scheduleManager, displayMode: displayMode)
         }

@@ -168,9 +168,14 @@ class ScheduleManager: ObservableObject {
         TimeUtils.formatDuration(timeRemaining)
     }
 
-    /// Formatted percentage string
+    /// Formatted percentage string (how much of the day is left)
     var percentageFormatted: String {
         "\(Int(progress * 100))%"
+    }
+
+    /// Formatted percentage remaining (how much of the day is left)
+    var percentageRemainingFormatted: String {
+        "\(Int((1 - progress) * 100))% left"
     }
 
     /// Formatted start time
